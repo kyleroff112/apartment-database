@@ -1,0 +1,41 @@
+landing page:
+- Title
+- About
+- contact number
+- contac email
+
+- login
+-- user name
+-- password
+-- forgot password (link)
+-- forgot username (link)
+-- authentication check box
+-- sign up (link)
+
+- Sign up
+-- form 
+--- first name
+--- last name
+--- zip code
+--- email
+--- phone number
+-- Next (button)
+-- user/pass form 
+--- username
+--- password
+--- re-enter password
+-- Save (buttton)
+
+Home page:
+
+- pernal greeting
+- upload documentation
+- document 
+-- download documentation
+-- application forms
+-- lease renewal form
+- Profile
+-- current tenants
+--- search
+-- aplicants
+--- search  
