@@ -1,0 +1,5 @@
+Search By Location (zipcode)
+Authentication/login
+logout
+Login should have username and password
+Criteria for username and password
