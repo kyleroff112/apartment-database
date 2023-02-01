@@ -1,5 +1,186 @@
 .head-1 {
 
+  display: flex;
+
+  align-items: center;
+
+  color: brown;
+
+  justify-content: center;
+
+  background-image: url(./images/chicago.jpg);
+
+  background-size: cover;
+
+  font-size: 60px;
+
+  text-decoration: overline;
+
+  font-family: Montserrat;
+
+  padding: 60px;
+}
+
+.g-signin2 {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+}
+
+#font-1 {
+  font-family: Montserrat;
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.DLB-1 {
+  margin-left: 25px;
+
+  float: right;
+
+  display: list-item;
+
+  text-align: -webkit-match-parent;
+
+  display: flex;
+}
+
+.DLB-2 {
+  margin-left: 25px;
+
+  float: right;
+
+  display: list-item;
+
+  text-align: -webkit-match-parent;
+
+  display: flex;
+
+  color: brown;
+}
+
+.DLB-3 {
+  margin-left: 25px;
+
+  float: right;
+
+  display: list-item;
+
+  text-align: -webkit-match-parent;
+
+  display: flex;
+}
+
+.jumbotron {
+  background-color: black;
+}
+
+#quote-btn {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  margin-left: 600px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.mms {
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.lead-2 {
+  font-size: 18px;
+
+  font-weight: bold;
+
+  color: ghostwhite;
+}
+
+.WOML {
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+
+div.container {
+  align-items: center;
+}
+
+.listing {
+  color: brown;
+  font-size: large;
+  font-weight: bolder;
+  /* display: inline-block; */
+  /* text-align:center;
+  /* /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.WGT {
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.mmf {
+  display: flex;
+  justify-content: center;
+}
+.Pgraph-2 {
+  font-size: 18px;
+
+  font-weight: bold;
+
+  color: ghostwhite;
+}
+
+/* .Pgraph-3 {
+
+    color: black;
+  } */
+
+.lead {
+  font-size: 18px;
+
+  font-weight: bold;
+
+  color: ghostwhite;
+}
+
+#body-1 {
+  display: flex;
+
+  flex-direction: column;
+
+  font-size: 16px;
+
+  line-height: 1.5;
+
+  background-color: gray;
+}
+
+.signOut {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-1 {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+/*
+=======
+
     display: flex;
   
     align-items: center;
@@ -207,6 +388,18 @@ padding: 40px;
       margin-bottom: 30px;
   
   } */
+
+
+.row {
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
   
    
   
@@ -220,3 +413,4 @@ padding: 40px;
   
     align-items: center;
   }
+
