@@ -39,3 +39,11 @@ Home page:
 --- search
 -- aplicants
 --- search  
+
+
+/////////////////////////////////////////////////////////////////////////
+Database: Real estate
+
+- Table 1: Users
+- Table 2: Password
+- Table 3: 
