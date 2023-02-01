@@ -1,4 +1,5 @@
 .head-1 {
+
   display: flex;
 
   align-items: center;
@@ -178,6 +179,185 @@ div.container {
 }
 
 /*
+=======
+
+    display: flex;
+  
+    align-items: center;
+  
+    color: brown;
+  
+    justify-content: center;
+  
+    background-image: url(./images/chicago.jpg);
+  
+    background-size: cover;
+  
+    font-size: 60px;
+  
+    text-decoration: overline;
+  
+    font-family: Montserrat;
+  
+    padding: 60px;
+  
+  }
+  
+
+  .g-signin2 {
+    display: flex;
+    justify-content: center;
+
+
+
+  }
+  
+  .banner {
+  
+    display: flex;
+  
+  
+  }
+  
+   
+  
+  #font-1 {
+  
+    font-family: Montserrat;
+  
+    font-weight: bold;
+  
+  }
+  
+   
+  
+  .DLB-1 {
+  
+    margin-left: 25px;
+  
+    float: right;
+  
+    display: list-item;
+  
+    text-align: -webkit-match-parent;
+  
+    display: flex;
+  
+  }
+  
+   
+  
+  .DLB-2 {
+  
+    margin-left: 25px;
+  
+    float: right;
+  
+    display: list-item;
+  
+    text-align: -webkit-match-parent;
+  
+    display: flex;
+  
+    color: brown;
+  
+  }
+  
+   
+  
+  .DLB-3 {
+  
+    margin-left: 25px;
+  
+    float: right;
+  
+    display: list-item;
+  
+    text-align: -webkit-match-parent;
+  
+    display: flex;
+  
+  }
+  
+   
+  
+  .jumbotron {
+  
+    background-color: black;
+  
+  }
+  
+   
+  
+  .lead-2 {
+  
+    font-size: 18px;
+  
+    font-weight: bold;
+  
+    color: ghostwhite;
+  
+  }
+  
+   
+  
+  .Pgraph-2 {
+  
+    font-size: 18px;
+  
+    font-weight: bold;
+  
+    color: ghostwhite;
+  
+  }
+  
+   
+  
+  .lead {
+  
+    font-size: 18px;
+  
+    font-weight: bold;
+  
+    color: ghostwhite;
+  
+  }
+  
+   
+  
+  #body-1 {
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    font-size: 16px;
+  
+    line-height: 1.5;
+  
+    background-color: gray;
+  
+  }
+
+
+  .signOut {
+
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .footer-1 {
+display: flex;
+justify-content: center;
+padding: 40px;
+
+
+
+  }
+   
+  
+  /*
   
   .banner {
   
@@ -209,6 +389,7 @@ div.container {
   
   } */
 
+
 .row {
   display: flex;
 
@@ -218,3 +399,18 @@ div.container {
 
   align-items: center;
 }
+
+  
+   
+  
+  .row {
+  
+    display: flex;
+  
+    flex-direction: row;
+  
+    justify-content: center;
+  
+    align-items: center;
+  }
+

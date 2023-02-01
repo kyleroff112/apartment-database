@@ -50,6 +50,7 @@
                     <!--created a class to control the margins on the nav-->
 
                     <!--Added individual styling to nav bar list items-->
+
                     <!-- <li class="DLB-1"><a href="#whoami" style="color: brown; color: azure;
 
                     box-shadow: 10px 2px 2px; color: black; padding: 10px; font-weight: bold;">David</a></li> -->
@@ -67,6 +68,23 @@
                     box-shadow: 10px 2px 2px; color: black; padding:10px; font-weight: bold;">Management Portal </a>
                     </li>
 
+                    <li class="DLB-1"><a href="#whoami" style="color: brown; color: azure;
+
+                    box-shadow: 10px 2px 2px; color: black; padding: 10px; font-weight: bold;">David</a></li>
+
+                    <li class="DLB-1"><a href="#whoami" style="color: brown; color: azure;
+
+                    box-shadow: 10px 2px 2px; color: black; padding: 10px; font-weight: bold;">Kyle</a></li>
+
+                    <li class="DLB-2"><a href="#mywork" style="color: brown; color: azure;
+
+                    box-shadow: 10px 2px 2px; color: black; padding: 10px; font-weight: bold;">Mahadee</a></li>
+
+                    <li class="DLB-3"><a href="#contactme" style="color: brown; color: azure;
+
+                    box-shadow: 10px 2px 2px; color: black; padding:10px; font-weight: bold;">Sean</a></li>
+
+
                 </ul>
 
         </nav>
@@ -81,6 +99,7 @@
             <div class="content-container">
 
                 <p class="Pgraph-1" id=font-1>
+
 
                     List for Sale and for Rent Simultaneously
                     If you are trying to decide if you need to sell or rent your property, we are happy to inform you
@@ -143,6 +162,12 @@
                     .
                 </p>
 
+                    This site will be utilized by clients/customers of Four Devs Property Management -- a Designated
+                    Managing Broker of Four Devs Property Management. <br>
+                    This site is intended to be used for the purpose of uploading and downloading important legal
+                    documents.</p>
+
+
                 <p class="Pgraph-2">This is a paragraph</p>
 
                 <!-- create page margins -->
@@ -165,7 +190,11 @@
 
                     </div>
 
+
                     <!-- <div class="card" style=" width: 700px; display: flex; justify-content: center;">
+
+                    <div class="card" style=" width: 700px; display: flex; justify-content: center;">
+
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -182,6 +211,7 @@
                             <a href="#" class="card-link">Another link</a>
                         </div>
                     </div>
+
 
             </div> -->
 
@@ -283,6 +313,106 @@
                     <h2 class="footer-1" style="font-size:12px;">Made with ❤️️ by The Four Devs <h2>
 
                 </footer>
+
+            </div>
+
+            <section>
+
+                <div class="container-fluid">
+
+                    <!doctype html>
+                    <html lang="en" data-bs-theme="dark">
+
+                    <head>
+                        <meta charset="utf-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <title>Bootstrap demo</title>
+                        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+                            rel="stylesheet"
+                            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+                            crossorigin="anonymous">
+                    </head>
+
+                    </html>
+                    ...
+                </div>
+
+            </section>
+
+        </main>
+
+        <div id="g_id_onload" data-client_id="863597852993-tpj5ckb05tsqle4fcl8t9m761h5ld6uo.apps.googleusercontent.com"
+            data-callback="handleCredentialResponse">
+
+        </div>
+
+        <script>
+
+            function handleCredentialResponse(response) {
+
+                // decodeJwtResponse() is a custom function defined by you
+
+                // to decode the credential response.
+
+                const responsePayload = decodeJwtResponse(response.credential);
+
+                console.log("ID: " + responsePayload.sub);
+
+                console.log('Full Name: ' + responsePayload.name);
+
+                console.log('Given Name: ' + responsePayload.given_name);
+
+                console.log('Family Name: ' + responsePayload.family_name);
+
+                console.log("Image URL: " + responsePayload.picture);
+
+                console.log("Email: " + responsePayload.email);
+
+            }
+
+        </script>
+
+        <meta name="google-signin-client_id"
+            content="863597852993-tpj5ckb05tsqle4fcl8t9m761h5ld6uo.apps.googleusercontent.com">
+
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+        <a class="signOut" href="#signOut" onclick="signOut();">Sign out</a>
+
+        <script>
+
+            function onSignIn(googleUser) {
+
+                // get user profile information
+
+                console.log(googleUser.getBasicProfile())
+
+            }
+
+        </script>
+
+        <script>
+
+            function signOut() {
+
+                var auth2 = gapi.auth2.getAuthInstance();
+
+                auth2.signOut().then(function () {
+
+                    console.log('User signed out.');
+
+                });
+
+            }
+
+        </script>
+
+        <footer>
+
+            <h2 class="footer-1" style="font-size:12px;">Made with ❤️️ by The Four Devs <h2>
+
+        </footer>
+
 
 </body>
 
