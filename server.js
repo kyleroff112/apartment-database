@@ -1,19 +1,26 @@
 const express = require('express');
+const db = require('./config/db_connection');
+const routes = require('./routes')
+const exphbs = require('express-handlebars');
+const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
-const path = require('path');
-app.use(express.static('public'));
 
-
+// Handlebars
+let hbs = exphbs.create({defaultLayout: 'main'});
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
+
+// Set static route
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(require('/.controllers/controller.js'))
 
+app.use(express.json());
+app.use(express.urlencoded({exteded:false}));
+app.use(routes);
 
-app.get('/', (req, res) => {res.sendFile(path.join(__dirname, '/public/'))})
-
-
-app.listen(PORT, () => {
-    console.log(`Listening on port ${PORT}.....`)
+app.get('/', (req, res)=>{
+    res.render('index')
 })
+
+db.sync({force:false})
+    .then(()=>{app.listen(PORT, ()=> console.log(`Listening on PORT: ${PORT}`))});
